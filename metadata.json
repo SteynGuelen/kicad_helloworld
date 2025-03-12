@@ -1,0 +1,31 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Hello World plugin!",
+    "description": "Hello world!",
+    "description_full": "This is a Hello World plugin made for KiCad.",
+    "identifier": "com.github.helloworld",
+    "type": "plugin",
+    "author": {
+        "name": "Steyn",
+        "contact": {
+            "github": "https://github.com/SteynGuelen"
+        }
+    },
+    "maintainer": {
+        "name": "Steyn",
+        "contact": {
+            "github": "https://github.com/SteynGuelen"
+        }
+    },
+    "license": "GPL-3.0",
+    "resources": {
+        "homepage": "https://github.com/SteynGuelen/kicad_helloworld"
+    },
+    "versions": [
+        {
+            "version": "1.0",
+            "status": "stable",
+            "kicad_version": "8.00"
+        }
+    ]
+}
